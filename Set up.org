@@ -1,4 +1,4 @@
-* Spark Attempt 2!
+* Spark Cluster & hdfs Setup 
 ubuntu 18.04
 
 /etc/hosts on both machines
