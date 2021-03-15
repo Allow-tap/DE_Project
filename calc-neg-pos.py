@@ -40,7 +40,7 @@ def match_negative(comment):
     return len(negative.findall(comment))
 
 def match_positive(comment):
-    return len(positivie.findall(comment))
+    return len(positive.findall(comment))
 
 udf_match_negative = udf(match_negative, StringType())
 udf_match_positive = udf(match_positive, StringType())
