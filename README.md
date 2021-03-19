@@ -92,7 +92,7 @@ bin/hdfs dfs -mkdir /user
 bin/hdfs dfs -mkdir /user/ubuntu
 bin/hdfs dfs -put sample_data.json /user/ubuntu/
 
-## DRIVER <IGNORE!!!!!!!>
+## Driver Info
 echo "export PYSPARK_PYTHON=python3" >> ~/.bashrc
 sudo apt-get update
 sudo apt-get install openjdk-11-jdk
