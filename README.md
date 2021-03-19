@@ -51,7 +51,7 @@ cd ~
 wget https://ftpmirror1.infania.net/mirror/apache/hadoop/common/hadoop-3.3.0/hadoop-3.3.0.tar.gz
 tar -xf hadoop-3.3.0.tar.gz
 
-in hadoop-home/etc/hadoop/core-site.xml
+* in hadoop-home/etc/hadoop/core-site.xml
 <configuration>
         <property>
                 <name>fs.default.name</name>
@@ -59,7 +59,7 @@ in hadoop-home/etc/hadoop/core-site.xml
         </property>
 </configuration>
 
-in hadoop-home/etc/hadoop/hdfs-site.xml
+* in hadoop-home/etc/hadoop/hdfs-site.xml
      <property>
          <name>dfs.replication</name>
          <value>1</value>
