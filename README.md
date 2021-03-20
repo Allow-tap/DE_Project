@@ -1,4 +1,7 @@
 # Data Engineering Group Project UU Spring 2021 Team 9
+The analysis as performed in the experiments can be run by running `python3 linux_analysis.py`
+or `python3 total_analysis.py`. For a more visually pleasing overview of the analysis, see `Analysisbysub.ipynb`.
+
 
 # Spark Cluster & hdfs Setup 
 ubuntu 18.04
